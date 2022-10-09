@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ReqRes.withOutBDD.GetRequest">
+      <class name="requestChaining.Chaining">
         <methods>
-          <include name="getResource"/>
+          <include name="test01"/>
         </methods>
-      </class> <!-- ReqRes.withOutBDD.GetRequest -->
+      </class> <!-- requestChaining.Chaining -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
