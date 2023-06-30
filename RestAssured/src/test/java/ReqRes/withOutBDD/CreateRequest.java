@@ -80,6 +80,7 @@ public class CreateRequest {
 		log.all();
 		System.out.println("================Verification Code===================");
 		validatableResponse.statusCode(400).contentType(ContentType.JSON);
+		System.out.println("testing");
 	}
 
 }
